@@ -1,6 +1,6 @@
 ﻿namespace ProjectHospital
 {
-    partial class Form1
+    partial class Giris
     {
         /// <summary>
         ///  Required designer variable.
@@ -36,35 +36,39 @@
             // 
             // button2
             // 
+            this.button2.BackgroundImage = global::ProjectHospital.Properties.Resources.Kaydol;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(350, 282);
+            this.button2.Location = new System.Drawing.Point(404, 274);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(160, 38);
             this.button2.TabIndex = 7;
             this.button2.Text = "Kayıt Ol";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
+            this.button1.BackgroundImage = global::ProjectHospital.Properties.Resources.GirisYap;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(515, 282);
+            this.button1.Location = new System.Drawing.Point(570, 274);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(161, 38);
             this.button1.TabIndex = 6;
             this.button1.Text = "Giriş Yap";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(516, 235);
+            this.textBox2.Location = new System.Drawing.Point(570, 218);
             this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
@@ -73,23 +77,28 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(516, 198);
+            this.textBox1.Location = new System.Drawing.Point(570, 165);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(161, 23);
             this.textBox1.TabIndex = 4;
             // 
-            // Form1
+            // Giris
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::ProjectHospital.Properties.Resources.GirisForm;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.Name = "Giris";
+            this.Text = "YHRS";
             this.ResumeLayout(false);
             this.PerformLayout();
 
