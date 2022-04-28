@@ -145,7 +145,7 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Name = "B_YoneticiPanel";
-            this.Text = "Yonetici Paneli";
+            this.Text = "Yönetici Paneli";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

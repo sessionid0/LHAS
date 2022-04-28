@@ -1,8 +1,8 @@
 namespace ProjectHospital
 {
-    public partial class Giris : Form
+    public partial class B_Giris : Form
     {
-        public Giris()
+        public B_Giris()
         {
             InitializeComponent();
         }

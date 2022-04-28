@@ -116,7 +116,7 @@
             this.Controls.Add(this.button1);
             this.DoubleBuffered = true;
             this.Name = "B_Kayit";
-            this.Text = "B_Kayit";
+            this.Text = "Kayıt Ol";
             this.ResumeLayout(false);
             this.PerformLayout();
 

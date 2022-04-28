@@ -1,6 +1,6 @@
 ﻿namespace ProjectHospital
 {
-    partial class Giris
+    partial class B_Giris
     {
         /// <summary>
         ///  Required designer variable.
@@ -83,7 +83,7 @@
             this.textBox1.Size = new System.Drawing.Size(161, 23);
             this.textBox1.TabIndex = 4;
             // 
-            // Giris
+            // B_Giris
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -97,7 +97,7 @@
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
-            this.Name = "Giris";
+            this.Name = "B_Giris";
             this.Text = "YHRS";
             this.ResumeLayout(false);
             this.PerformLayout();
