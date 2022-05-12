@@ -1,9 +1,7 @@
 C:\Users\suley\Desktop\proje-project-hospital\ProjectHospital\ProjectHospital\obj\Debug\net6.0-windows\ProjectHospital.csproj.AssemblyReference.cache
-C:\Users\suley\Desktop\proje-project-hospital\ProjectHospital\ProjectHospital\obj\Debug\net6.0-windows\ProjectHospital.Giris.resources
 C:\Users\suley\Desktop\proje-project-hospital\ProjectHospital\ProjectHospital\obj\Debug\net6.0-windows\ProjectHospital.B_Kayit.resources
 C:\Users\suley\Desktop\proje-project-hospital\ProjectHospital\ProjectHospital\obj\Debug\net6.0-windows\ProjectHospital.B_YoneticiPanel.resources
 C:\Users\suley\Desktop\proje-project-hospital\ProjectHospital\ProjectHospital\obj\Debug\net6.0-windows\ProjectHospital.Properties.Resources.resources
-C:\Users\suley\Desktop\proje-project-hospital\ProjectHospital\ProjectHospital\obj\Debug\net6.0-windows\ProjectHospital.S_Hasta_Panel.resources
 C:\Users\suley\Desktop\proje-project-hospital\ProjectHospital\ProjectHospital\obj\Debug\net6.0-windows\ProjectHospital.csproj.GenerateResource.cache
 C:\Users\suley\Desktop\proje-project-hospital\ProjectHospital\ProjectHospital\obj\Debug\net6.0-windows\ProjectHospital.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\suley\Desktop\proje-project-hospital\ProjectHospital\ProjectHospital\obj\Debug\net6.0-windows\ProjectHospital.AssemblyInfoInputs.cache
@@ -19,3 +17,4 @@ C:\Users\suley\Desktop\proje-project-hospital\ProjectHospital\ProjectHospital\ob
 C:\Users\suley\Desktop\proje-project-hospital\ProjectHospital\ProjectHospital\obj\Debug\net6.0-windows\ProjectHospital.pdb
 C:\Users\suley\Desktop\proje-project-hospital\ProjectHospital\ProjectHospital\obj\Debug\net6.0-windows\ProjectHospital.genruntimeconfig.cache
 C:\Users\suley\Desktop\proje-project-hospital\ProjectHospital\ProjectHospital\obj\Debug\net6.0-windows\ref\ProjectHospital.dll
+C:\Users\suley\Desktop\proje-project-hospital\ProjectHospital\ProjectHospital\obj\Debug\net6.0-windows\ProjectHospital.B_Giris.resources

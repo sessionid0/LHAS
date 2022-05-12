@@ -19,8 +19,6 @@ namespace ProjectHospital
            // {
            //
           //  }
-          S_Hasta_Panel s_Hasta_Panel = new S_Hasta_Panel();
-            s_Hasta_Panel.Show();
             this.Hide();
         }
     }

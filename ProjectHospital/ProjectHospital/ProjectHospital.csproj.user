@@ -10,8 +10,5 @@
     <Compile Update="B_YoneticiPanel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="S_Hasta_Panel.cs">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
 </Project>
