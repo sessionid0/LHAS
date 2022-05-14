@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\suley\\Desktop\\Project-YHRS\\Project-YHRS.csproj": {}
+    "C:\\Users\\suley\\Desktop\\proje-project-hospital\\Project-YHRS\\Project-YHRS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\suley\\Desktop\\Project-YHRS\\Project-YHRS.csproj": {
+    "C:\\Users\\suley\\Desktop\\proje-project-hospital\\Project-YHRS\\Project-YHRS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\suley\\Desktop\\Project-YHRS\\Project-YHRS.csproj",
+        "projectUniqueName": "C:\\Users\\suley\\Desktop\\proje-project-hospital\\Project-YHRS\\Project-YHRS.csproj",
         "projectName": "Project-YHRS",
-        "projectPath": "C:\\Users\\suley\\Desktop\\Project-YHRS\\Project-YHRS.csproj",
+        "projectPath": "C:\\Users\\suley\\Desktop\\proje-project-hospital\\Project-YHRS\\Project-YHRS.csproj",
         "packagesPath": "C:\\Users\\suley\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\suley\\Desktop\\Project-YHRS\\obj\\",
+        "outputPath": "C:\\Users\\suley\\Desktop\\proje-project-hospital\\Project-YHRS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

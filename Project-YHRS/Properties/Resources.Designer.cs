@@ -63,6 +63,26 @@ namespace Project_YHRS.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap Ayarlar {
+            get {
+                object obj = ResourceManager.GetObject("Ayarlar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap CikisYap {
+            get {
+                object obj = ResourceManager.GetObject("CikisYap", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap doktorbuton {
             get {
                 object obj = ResourceManager.GetObject("doktorbuton", resourceCulture);
@@ -86,6 +106,16 @@ namespace Project_YHRS.Properties {
         internal static System.Drawing.Bitmap Giriş_Yap {
             get {
                 object obj = ResourceManager.GetObject("Giriş Yap", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap Giriş_Yp__4_ {
+            get {
+                object obj = ResourceManager.GetObject("Giriş Yp (4)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,6 +166,46 @@ namespace Project_YHRS.Properties {
         internal static System.Drawing.Bitmap photo1 {
             get {
                 object obj = ResourceManager.GetObject("photo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap poliklinikEkle {
+            get {
+                object obj = ResourceManager.GetObject("poliklinikEkle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap Profilim {
+            get {
+                object obj = ResourceManager.GetObject("Profilim", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled_design__13_ {
+            get {
+                object obj = ResourceManager.GetObject("Untitled design (13)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled_design__14_ {
+            get {
+                object obj = ResourceManager.GetObject("Untitled design (14)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
