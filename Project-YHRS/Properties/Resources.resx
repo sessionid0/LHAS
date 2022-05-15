@@ -118,52 +118,70 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Hasta Kaydı Yap" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Hasta Kaydı Yap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="KayıtYeni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KayıtYeni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hastakayit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hastakayit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="poliklinikEkle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\poliklinikEkle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="asi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="doktorbuton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\doktorbuton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Profilim0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Profilim0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Giriş Yap" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Giriş Yap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="KayıtYeni" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\KayıtYeni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Kayıt Ol 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Kayıt Ol 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Giriş Yp (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Giriş Yp (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Profilim" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Profilim.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="doktorikon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\doktorikon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Untitled design (13)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Untitled design (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ayarlar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ayarlar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="photo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\photo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Kayıt Ol 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kayıt Ol 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CikisYap" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CikisYap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Hekimleri Görüntüle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hekimleri Görüntüle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitled design (14)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled design (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Giriş Yp (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Giriş Yp (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hasta Kaydı Yap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hasta Kaydı Yap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Profilim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Profilim.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="poliklinikEkle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\poliklinikEkle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitled design (13)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled design (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="yoneticiikon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\yoneticiikon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Untitled design (14)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Untitled design (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="photo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doktorikon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doktorikon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Randevu Oluşturun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Randevu Oluşturun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CikisYap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CikisYap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hastanehh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hastanehh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitled design (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled design (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
