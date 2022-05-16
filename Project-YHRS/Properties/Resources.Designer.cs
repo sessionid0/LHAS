@@ -223,6 +223,16 @@ namespace Project_YHRS.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap Profilim0 {
+            get {
+                object obj = ResourceManager.GetObject("Profilim0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap Untitled_design__13_ {
             get {
                 object obj = ResourceManager.GetObject("Untitled design (13)", resourceCulture);
@@ -236,6 +246,16 @@ namespace Project_YHRS.Properties {
         internal static System.Drawing.Bitmap Untitled_design__14_ {
             get {
                 object obj = ResourceManager.GetObject("Untitled design (14)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled_design__9_ {
+            get {
+                object obj = ResourceManager.GetObject("Untitled design (9)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

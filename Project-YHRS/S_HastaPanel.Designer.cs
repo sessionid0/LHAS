@@ -111,6 +111,7 @@
             this.button5.Size = new System.Drawing.Size(65, 65);
             this.button5.TabIndex = 14;
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -127,6 +128,7 @@
             this.button4.TabIndex = 13;
             this.button4.Text = "Profilim";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -178,6 +180,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Project_YHRS.Properties.Resources.Giriş_Yp__4_;
             this.ClientSize = new System.Drawing.Size(1022, 593);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -189,8 +192,10 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "S_HastaPanel";
-            this.Text = "S_HastaPanel";
+            this.Text = "Hasta Paneli";
             this.Load += new System.EventHandler(this.S_HastaPanel_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
