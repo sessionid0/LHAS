@@ -63,6 +63,16 @@ namespace Project_YHRS.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap asi {
+            get {
+                object obj = ResourceManager.GetObject("asi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap Ayarlar {
             get {
                 object obj = ResourceManager.GetObject("Ayarlar", resourceCulture);
@@ -136,6 +146,26 @@ namespace Project_YHRS.Properties {
         internal static System.Drawing.Bitmap hastakayit {
             get {
                 object obj = ResourceManager.GetObject("hastakayit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap hastanehh {
+            get {
+                object obj = ResourceManager.GetObject("hastanehh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hekimleri_Görüntüle {
+            get {
+                object obj = ResourceManager.GetObject("Hekimleri Görüntüle", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
