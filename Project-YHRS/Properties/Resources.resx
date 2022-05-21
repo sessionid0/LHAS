@@ -124,14 +124,17 @@
   <data name="hastakayit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hastakayit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Untitled design (21)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled design (21).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="asi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\asi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="doktorbuton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\doktorbuton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Untitled design (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Untitled design (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Profilim0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Profilim0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Giriş Yap" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Giriş Yap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,11 +145,17 @@
   <data name="Kayıt Ol 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Kayıt Ol 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hastanehh" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hastanehh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="doktorikon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doktorikon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yerel Hastane Randevu Sistemi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yerel Hastane Randevu Sistemi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Hekimleri Görüntüle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Hekimleri Görüntüle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitled design (14)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled design (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Giriş Yp (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Giriş Yp (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,16 +178,19 @@
   <data name="photo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\photo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="doktorikon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\doktorikon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Untitled design (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled design (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Randevu Oluşturun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Randevu Oluşturun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CikisYap" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CikisYap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Untitled design (14)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Untitled design (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hastanehh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hastanehh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Profilim0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Profilim0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="asirandevubile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asirandevubile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -73,6 +73,16 @@ namespace Project_YHRS.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap asirandevubile {
+            get {
+                object obj = ResourceManager.GetObject("asirandevubile", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap Ayarlar {
             get {
                 object obj = ResourceManager.GetObject("Ayarlar", resourceCulture);
@@ -233,6 +243,16 @@ namespace Project_YHRS.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap Randevu_Oluşturun {
+            get {
+                object obj = ResourceManager.GetObject("Randevu Oluşturun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap Untitled_design__13_ {
             get {
                 object obj = ResourceManager.GetObject("Untitled design (13)", resourceCulture);
@@ -253,9 +273,29 @@ namespace Project_YHRS.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap Untitled_design__21_ {
+            get {
+                object obj = ResourceManager.GetObject("Untitled design (21)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap Untitled_design__9_ {
             get {
                 object obj = ResourceManager.GetObject("Untitled design (9)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap Yerel_Hastane_Randevu_Sistemi {
+            get {
+                object obj = ResourceManager.GetObject("Yerel Hastane Randevu Sistemi", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

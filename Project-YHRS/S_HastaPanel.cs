@@ -24,7 +24,8 @@ namespace Project_YHRS
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            S_AsiRandevuAl s_AsiRandevuAl = new S_AsiRandevuAl();
+            s_AsiRandevuAl.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -38,6 +39,18 @@ namespace Project_YHRS
         {
             S_Ayarlar s_Ayarlar = new S_Ayarlar();
             s_Ayarlar.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            S_HastaneRandevu s_HastaneRandevu = new S_HastaneRandevu();
+            s_HastaneRandevu.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            S_HekimleriGoruntule s_HekimleriGoruntule = new S_HekimleriGoruntule();
+            s_HekimleriGoruntule.Show();
         }
     }
 }

@@ -42,3 +42,7 @@ C:\Users\suley\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-wind
 C:\Users\suley\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-windows\Project_YHRS.S_Ayarlar.resources
 C:\Users\suley\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-windows\Project_YHRS.S_HastaPanel.resources
 C:\Users\suley\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-windows\Project_YHRS.S_Profilim.resources
+C:\Users\suley\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-windows\Project_YHRS.S_HastaneRandevu.resources
+C:\Users\suley\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-windows\Project_YHRS.S_AsiRandevuAl.resources
+C:\Users\suley\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-windows\Project_YHRS.S_AsiRandevuBilesen.resources
+C:\Users\suley\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-windows\Project_YHRS.S_HekimleriGoruntule.resources

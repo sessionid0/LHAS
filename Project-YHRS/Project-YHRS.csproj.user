@@ -16,10 +16,22 @@
     <Compile Update="B_YoneticiPanel.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="S_AsiRandevuAl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="S_AsiRandevuBilesen.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="S_Ayarlar.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="S_HastaneRandevu.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="S_HastaPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="S_HekimleriGoruntule.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="S_Profilim.cs">
