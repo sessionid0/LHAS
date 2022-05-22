@@ -44,9 +44,10 @@
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button3.Location = new System.Drawing.Point(416, 296);
+            this.button3.Location = new System.Drawing.Point(294, 221);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(183, 51);
+            this.button3.Size = new System.Drawing.Size(160, 38);
             this.button3.TabIndex = 17;
             this.button3.Text = "Kayıt Ol";
             this.button3.UseVisualStyleBackColor = false;
@@ -60,26 +61,29 @@
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button4.Location = new System.Drawing.Point(606, 296);
+            this.button4.Location = new System.Drawing.Point(460, 221);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(184, 51);
+            this.button4.Size = new System.Drawing.Size(161, 38);
             this.button4.TabIndex = 18;
             this.button4.Text = "Giriş Yap";
             this.button4.UseVisualStyleBackColor = false;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(607, 243);
+            this.textBox1.Location = new System.Drawing.Point(461, 182);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
             this.textBox1.PasswordChar = '*';
-            this.textBox1.Size = new System.Drawing.Size(183, 27);
+            this.textBox1.Size = new System.Drawing.Size(161, 23);
             this.textBox1.TabIndex = 16;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(607, 179);
+            this.textBox2.Location = new System.Drawing.Point(461, 132);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(183, 27);
+            this.textBox2.Size = new System.Drawing.Size(161, 23);
             this.textBox2.TabIndex = 15;
             // 
             // button2
@@ -91,10 +95,9 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(687, 360);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button2.Location = new System.Drawing.Point(531, 269);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(48, 49);
+            this.button2.Size = new System.Drawing.Size(42, 37);
             this.button2.TabIndex = 14;
             this.button2.UseVisualStyleBackColor = false;
             // 
@@ -107,20 +110,20 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(742, 360);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Location = new System.Drawing.Point(579, 269);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(48, 49);
+            this.button1.Size = new System.Drawing.Size(42, 37);
             this.button1.TabIndex = 13;
             this.button1.UseVisualStyleBackColor = false;
             // 
             // YHRS
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoSize = true;
             this.BackgroundImage = global::Project_YHRS.Properties.Resources.photo1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(858, 482);
+            this.ClientSize = new System.Drawing.Size(646, 362);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.textBox1);
@@ -129,6 +132,7 @@
             this.Controls.Add(this.button1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "YHRS";
             this.Text = "YHRS";
