@@ -51,10 +51,9 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(406, 525);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button2.Location = new System.Drawing.Point(341, 394);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(183, 60);
+            this.button2.Size = new System.Drawing.Size(160, 45);
             this.button2.TabIndex = 44;
             this.button2.Text = "Yönetici Kaydı Yap";
             this.button2.UseVisualStyleBackColor = false;
@@ -68,10 +67,9 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button4.Location = new System.Drawing.Point(216, 525);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button4.Location = new System.Drawing.Point(175, 394);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(183, 60);
+            this.button4.Size = new System.Drawing.Size(160, 45);
             this.button4.TabIndex = 43;
             this.button4.Text = "Doktor Kaydı Yap";
             this.button4.UseVisualStyleBackColor = false;
@@ -85,10 +83,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(26, 525);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Location = new System.Drawing.Point(9, 394);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(183, 60);
+            this.button1.Size = new System.Drawing.Size(160, 45);
             this.button1.TabIndex = 42;
             this.button1.Text = "Hasta Kaydı Yap";
             this.button1.UseVisualStyleBackColor = false;
@@ -100,26 +97,23 @@
             this.comboBox2.Items.AddRange(new object[] {
             "Erkek",
             "Kadın"});
-            this.comboBox2.Location = new System.Drawing.Point(382, 305);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.comboBox2.Location = new System.Drawing.Point(314, 229);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(206, 28);
+            this.comboBox2.Size = new System.Drawing.Size(181, 23);
             this.comboBox2.TabIndex = 41;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(95, 442);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dateTimePicker1.Location = new System.Drawing.Point(77, 332);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(215, 27);
+            this.dateTimePicker1.Size = new System.Drawing.Size(189, 23);
             this.dateTimePicker1.TabIndex = 40;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(382, 192);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox6.Location = new System.Drawing.Point(286, 148);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(206, 27);
+            this.textBox6.Size = new System.Drawing.Size(181, 23);
             this.textBox6.TabIndex = 39;
             // 
             // comboBox1
@@ -128,59 +122,54 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Erkek",
             "Kadın"});
-            this.comboBox1.Location = new System.Drawing.Point(95, 369);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.comboBox1.Location = new System.Drawing.Point(77, 277);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(215, 28);
+            this.comboBox1.Size = new System.Drawing.Size(189, 23);
             this.comboBox1.TabIndex = 38;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(382, 446);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox5.Location = new System.Drawing.Point(314, 334);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(206, 27);
+            this.textBox5.Size = new System.Drawing.Size(181, 23);
             this.textBox5.TabIndex = 37;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(382, 373);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox4.Location = new System.Drawing.Point(314, 280);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(206, 27);
+            this.textBox4.Size = new System.Drawing.Size(181, 23);
             this.textBox4.TabIndex = 36;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(95, 305);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox3.Location = new System.Drawing.Point(77, 229);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(215, 27);
+            this.textBox3.Size = new System.Drawing.Size(189, 23);
             this.textBox3.TabIndex = 35;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(382, 156);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox2.Location = new System.Drawing.Point(286, 121);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(206, 27);
+            this.textBox2.Size = new System.Drawing.Size(181, 23);
             this.textBox2.TabIndex = 34;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(382, 118);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox1.Location = new System.Drawing.Point(286, 92);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(206, 27);
+            this.textBox1.Size = new System.Drawing.Size(181, 23);
             this.textBox1.TabIndex = 33;
             // 
             // B_Kayit
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoSize = true;
             this.BackgroundImage = global::Project_YHRS.Properties.Resources.hastakayit;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(913, 600);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(747, 450);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button1);
@@ -195,6 +184,7 @@
             this.Controls.Add(this.textBox1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "B_Kayit";
             this.Text = "Kayıt Formu";

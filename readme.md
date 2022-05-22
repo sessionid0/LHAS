@@ -58,10 +58,10 @@ Süleyman Nur Ceylan - 192503002
 
 | Görev Adı          | Tarih | Üye Adı   | Durumu | Gecikme Sebebi |
 |----------------|---------------|---------------|----------------|----------------|
-| Anasayfa tasarımı (GUI) | 30.04.2022  | Bilal Yücel | ✅ | Teknik sorunlar, dosyaların uyumsuzluk sebebiyle çakışması ve bayramın gelmesi |
-| Hasta paneli (GUI)   | 30.04.2022  | Süleyman Nur Ceylan | ✅ | Teknik sorunlar, dosyaların uyumsuzluk sebebiyle çakışması ve bayramın gelmesi |
-| Yönetici paneli (GUI)   | 30.04.2022  | Bilal Yücel | ✅ | Teknik sorunlar, dosyaların uyumsuzluk sebebiyle çakışması ve bayramın gelmesi |
-| Doktor paneli (GUI)   | 30.04.2022  | Süleyman Nur Ceylan | ✅ | Teknik sorunlar, dosyaların uyumsuzluk sebebiyle çakışması ve bayramın gelmesi |
+| Anasayfa tasarımı (GUI) | 30.04.2022  | Bilal Yücel | ✅ | Teknik sorunlar, dosyaların uyumsuzluk sebebiyle çakışması |
+| Hasta paneli (GUI)   | 30.04.2022  | Süleyman Nur Ceylan | ✅ | Teknik sorunlar, dosyaların uyumsuzluk sebebiyle çakışması |
+| Yönetici paneli (GUI)   | 30.04.2022  | Bilal Yücel | ✅ | Teknik sorunlar, dosyaların uyumsuzluk sebebiyle çakışması |
+| Doktor paneli (GUI)   | 30.04.2022  | Süleyman Nur Ceylan | ✅ | Teknik sorunlar, dosyaların uyumsuzluk sebebiyle çakışması |
 | Veritabanı yönetim sisteminin kurulması | 03.05.2022 | Bilal Yücel | ✅ | Teknik sorunlar, dosyaların uyumsuzluk sebebiyle çakışması ve bayramın gelmesi |
 | Veritabanı tasarımının yapılması | 08.05.2022 | Süleyman Nur Ceylan | ✅ | Teknik sorunlar, dosyaların uyumsuzluk sebebiyle çakışması ve bayramın gelmesi |
 | Anasayfa tasarımı (Back-End) | 05.06.2022  | Bilal Yücel | ⬜️
