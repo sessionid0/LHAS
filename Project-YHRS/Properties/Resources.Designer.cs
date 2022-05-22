@@ -123,6 +123,16 @@ namespace Project_YHRS.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap doktorlistesin {
+            get {
+                object obj = ResourceManager.GetObject("doktorlistesin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap Giriş_Yap {
             get {
                 object obj = ResourceManager.GetObject("Giriş Yap", resourceCulture);

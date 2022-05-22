@@ -41,7 +41,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Leelawadee UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button3.Location = new System.Drawing.Point(359, 410);
+            this.button3.Location = new System.Drawing.Point(355, 411);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(290, 60);
             this.button3.TabIndex = 5;
@@ -57,7 +57,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Leelawadee UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(359, 333);
+            this.button2.Location = new System.Drawing.Point(355, 334);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(290, 60);
             this.button2.TabIndex = 4;
@@ -73,7 +73,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Leelawadee UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(359, 256);
+            this.button1.Location = new System.Drawing.Point(355, 257);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(290, 60);
             this.button1.TabIndex = 3;
@@ -83,13 +83,16 @@
             // 
             // S_AsiRandevuAl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoSize = true;
             this.BackgroundImage = global::Project_YHRS.Properties.Resources.Yerel_Hastane_Randevu_Sistemi;
-            this.ClientSize = new System.Drawing.Size(722, 600);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(727, 594);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "S_AsiRandevuAl";
