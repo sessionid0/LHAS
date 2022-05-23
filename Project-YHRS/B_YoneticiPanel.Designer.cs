@@ -127,6 +127,7 @@
             this.button6.Size = new System.Drawing.Size(57, 49);
             this.button6.TabIndex = 21;
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -182,7 +183,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "B_YoneticiPanel";
-            this.Text = "B_YoneticiPanel";
+            this.Text = "Yönetici Paneli";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

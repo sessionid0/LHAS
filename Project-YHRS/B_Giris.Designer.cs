@@ -34,6 +34,8 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.lbl_DoktorGirisi = new System.Windows.Forms.Label();
+            this.lbl_YoneticiGirisi = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button3
@@ -68,6 +70,7 @@
             this.button4.TabIndex = 18;
             this.button4.Text = "Giriş Yap";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // textBox1
             // 
@@ -75,7 +78,7 @@
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
             this.textBox1.PasswordChar = '*';
-            this.textBox1.Size = new System.Drawing.Size(161, 23);
+            this.textBox1.Size = new System.Drawing.Size(161, 29);
             this.textBox1.TabIndex = 16;
             // 
             // textBox2
@@ -83,7 +86,7 @@
             this.textBox2.Location = new System.Drawing.Point(461, 132);
             this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(161, 23);
+            this.textBox2.Size = new System.Drawing.Size(161, 29);
             this.textBox2.TabIndex = 15;
             // 
             // button2
@@ -100,6 +103,7 @@
             this.button2.Size = new System.Drawing.Size(42, 37);
             this.button2.TabIndex = 14;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -115,6 +119,29 @@
             this.button1.Size = new System.Drawing.Size(42, 37);
             this.button1.TabIndex = 13;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // lbl_DoktorGirisi
+            // 
+            this.lbl_DoktorGirisi.AutoSize = true;
+            this.lbl_DoktorGirisi.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_DoktorGirisi.Location = new System.Drawing.Point(417, 99);
+            this.lbl_DoktorGirisi.Name = "lbl_DoktorGirisi";
+            this.lbl_DoktorGirisi.Size = new System.Drawing.Size(101, 21);
+            this.lbl_DoktorGirisi.TabIndex = 19;
+            this.lbl_DoktorGirisi.Text = "Doktor Girişi";
+            this.lbl_DoktorGirisi.Visible = false;
+            // 
+            // lbl_YoneticiGirisi
+            // 
+            this.lbl_YoneticiGirisi.AutoSize = true;
+            this.lbl_YoneticiGirisi.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_YoneticiGirisi.Location = new System.Drawing.Point(410, 99);
+            this.lbl_YoneticiGirisi.Name = "lbl_YoneticiGirisi";
+            this.lbl_YoneticiGirisi.Size = new System.Drawing.Size(108, 21);
+            this.lbl_YoneticiGirisi.TabIndex = 20;
+            this.lbl_YoneticiGirisi.Text = "Yönetici Girişi";
+            this.lbl_YoneticiGirisi.Visible = false;
             // 
             // YHRS
             // 
@@ -124,6 +151,8 @@
             this.BackgroundImage = global::Project_YHRS.Properties.Resources.photo1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(646, 362);
+            this.Controls.Add(this.lbl_YoneticiGirisi);
+            this.Controls.Add(this.lbl_DoktorGirisi);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.textBox1);
@@ -131,11 +160,13 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.DoubleBuffered = true;
+            this.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "YHRS";
             this.Text = "YHRS";
+            this.Load += new System.EventHandler(this.YHRS_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -149,5 +180,7 @@
         private TextBox textBox2;
         private Button button2;
         private Button button1;
+        private Label lbl_DoktorGirisi;
+        private Label lbl_YoneticiGirisi;
     }
 }
