@@ -133,6 +133,16 @@ namespace Project_YHRS.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap doktorpnl__4_ {
+            get {
+                object obj = ResourceManager.GetObject("doktorpnl (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap Giriş_Yap {
             get {
                 object obj = ResourceManager.GetObject("Giriş Yap", resourceCulture);
@@ -156,6 +166,26 @@ namespace Project_YHRS.Properties {
         internal static System.Drawing.Bitmap Hasta_Kaydı_Yap {
             get {
                 object obj = ResourceManager.GetObject("Hasta Kaydı Yap", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap hasta_recetesi {
+            get {
+                object obj = ResourceManager.GetObject("hasta_recetesi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap hastagelmedi {
+            get {
+                object obj = ResourceManager.GetObject("hastagelmedi", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -256,6 +286,16 @@ namespace Project_YHRS.Properties {
         internal static System.Drawing.Bitmap Randevu_Oluşturun {
             get {
                 object obj = ResourceManager.GetObject("Randevu Oluşturun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap receteolustur {
+            get {
+                object obj = ResourceManager.GetObject("receteolustur", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

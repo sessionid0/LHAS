@@ -140,7 +140,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "S_Profilim";
-            this.Text = "Profilim";
+            this.Text = "YHRS";
             this.ResumeLayout(false);
             this.PerformLayout();
 

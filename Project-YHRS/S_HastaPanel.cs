@@ -52,5 +52,19 @@ namespace Project_YHRS
             S_HekimleriGoruntule s_HekimleriGoruntule = new S_HekimleriGoruntule();
             s_HekimleriGoruntule.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            DialogResult result2 = MessageBox.Show("Uygulamadan çıkmak istiyor musunuz?", "YHRS",
+    MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (result2 == DialogResult.Yes)
+            {
+                this.Close();
+            }
+            else
+            {
+                //boş kalacak.
+            }
+        }
     }
 }

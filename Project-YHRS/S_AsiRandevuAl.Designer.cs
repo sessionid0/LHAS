@@ -96,7 +96,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "S_AsiRandevuAl";
-            this.Text = "Aşı Randevusu Al";
+            this.Text = "YHRS";
             this.ResumeLayout(false);
 
         }
