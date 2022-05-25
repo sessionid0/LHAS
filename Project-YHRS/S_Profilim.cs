@@ -16,5 +16,12 @@ namespace Project_YHRS
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("İletişim bilgileriniz güncellenmiştir.", "YHRS",
+            MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Hide();
+        }
     }
 }

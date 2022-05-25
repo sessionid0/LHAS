@@ -33,5 +33,11 @@ namespace Project_YHRS
                 label1.Text = "Turcovac";
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Aşı randevusu başarıyla tamamlandı.", "YHRS",
+        MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

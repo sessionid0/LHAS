@@ -16,5 +16,18 @@ namespace Project_YHRS
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bilgilendirme tercihiniz kaydedildi.", "YHRS",
+            MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Parolanız güncellenmiştir.", "YHRS",
+            MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Hide();
+        }
     }
 }

@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 namespace Project_YHRS
 {
     internal class VeriTabanı
+
     {
         public static int a = 0;
+        
     }
 }
