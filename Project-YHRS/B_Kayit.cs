@@ -19,7 +19,9 @@ namespace Project_YHRS
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Kayıt olundu.", "YHRS",
+            MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Hide();
         }
     }
 }

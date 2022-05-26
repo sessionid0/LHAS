@@ -10,6 +10,5 @@ namespace Project_YHRS
 
     {
         public static int a = 0;
-        
     }
 }

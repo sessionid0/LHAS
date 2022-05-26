@@ -79,3 +79,4 @@ C:\Users\suley\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-wind
 C:\Users\suley\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-windows\Project_YHRS.S_ReceteOlustur.resources
 C:\Users\yucel\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-windows\Project_YHRS.S_DoktorPanel.resources
 C:\Users\yucel\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-windows\Project_YHRS.S_ReceteOlustur.resources
+C:\Users\yucel\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-windows\Project_YHRS.B_PoliklinikEkleSil.resources

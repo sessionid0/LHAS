@@ -52,5 +52,62 @@ namespace Project_YHRS
                 //boş kalacak.
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked)
+            {
+                MessageBox.Show("Doktor eklendi.", "YHRS",
+    MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else if (radioButton2.Checked)
+            {
+                MessageBox.Show("Yönetici eklendi.", "YHRS",
+    MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Lütfen doktor/yönetici seçiniz.", "YHRS",
+    MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked)
+            {
+                MessageBox.Show("Doktor güncellendi.", "YHRS",
+    MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else if (radioButton2.Checked)
+            {
+                MessageBox.Show("Yönetici güncellendi.", "YHRS",
+    MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Lütfen doktor/yönetici seçiniz.", "YHRS",
+    MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked)
+            {
+                MessageBox.Show("Doktor silindi.", "YHRS",
+    MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else if (radioButton2.Checked)
+            {
+                MessageBox.Show("Yönetici silindi.", "YHRS",
+    MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Lütfen doktor/yönetici seçiniz.", "YHRS",
+    MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
     }
 }

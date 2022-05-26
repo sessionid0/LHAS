@@ -42,5 +42,23 @@ namespace Project_YHRS
                 //boş kalacak.
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            B_DoktorEkleSil b_DoktorEkleSil = new B_DoktorEkleSil();
+            b_DoktorEkleSil.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            B_PoliklinikEkleSil b_PoliklinikEkleSil = new B_PoliklinikEkleSil();
+            b_PoliklinikEkleSil.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            B_HastaGrafik b_HastaGrafik = new B_HastaGrafik();
+            b_HastaGrafik.Show();
+        }
     }
 }

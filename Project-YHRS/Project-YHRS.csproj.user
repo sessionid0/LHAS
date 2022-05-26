@@ -13,6 +13,9 @@
     <Compile Update="B_Kayit.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="B_PoliklinikEkleSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="B_YoneticiPanel.cs">
       <SubType>Form</SubType>
     </Compile>
