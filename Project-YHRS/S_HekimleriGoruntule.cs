@@ -16,5 +16,10 @@ namespace Project_YHRS
         {
             InitializeComponent();
         }
+
+        private void S_HekimleriGoruntule_Load(object sender, EventArgs e)
+        {
+            VeriTabanı.GridTumunuDoldur(dataGridView1, "DoktorTablosu");
+        }
     }
 }
