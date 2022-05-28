@@ -88,3 +88,10 @@ C:\Users\suley\Desktop\proje-project-hospital\Project-YHRS\bin\Debug\net6.0-wind
 C:\Users\suley\Desktop\proje-project-hospital\Project-YHRS\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\suley\Desktop\proje-project-hospital\Project-YHRS\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\suley\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-windows\Project-YHRS.csproj.CopyComplete
+C:\Users\yucel\Desktop\proje-project-hospital\Project-YHRS\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\yucel\Desktop\proje-project-hospital\Project-YHRS\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\yucel\Desktop\proje-project-hospital\Project-YHRS\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\yucel\Desktop\proje-project-hospital\Project-YHRS\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\yucel\Desktop\proje-project-hospital\Project-YHRS\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\yucel\Desktop\proje-project-hospital\Project-YHRS\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\yucel\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-windows\Project-YHRS.csproj.CopyComplete

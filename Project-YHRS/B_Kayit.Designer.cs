@@ -78,6 +78,7 @@
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(286, 148);
+            this.textBox6.MaxLength = 11;
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(181, 23);
             this.textBox6.TabIndex = 39;
@@ -86,8 +87,87 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "Erkek",
-            "Kadın"});
+            "Adana",
+            "Adıyaman",
+            "Afyonkarahisar",
+            "Ağrı",
+            "Aksaray",
+            "Amasya",
+            "Ankara",
+            "Antalya",
+            "Ardahan",
+            "Artvin",
+            "Aydın",
+            "Balıkesir",
+            "Bartın",
+            "Batman",
+            "Bayburt",
+            "Bilecik",
+            "Bingöl",
+            "Bitlis",
+            "Bolu",
+            "Burdur",
+            "Bursa",
+            "Çanakkale",
+            "Çankırı",
+            "Çorum",
+            "Denizli",
+            "Diyarbakır",
+            "Düzce",
+            "Edirne",
+            "Elazığ",
+            "Erzincan",
+            "Erzurum",
+            "Eskişehir",
+            "Gaziantep",
+            "Giresun",
+            "Gümüşhane",
+            "Hakkâri",
+            "Hatay",
+            "Iğdır",
+            "Isparta",
+            "İstanbul",
+            "İzmir",
+            "Kahramanmaraş",
+            "Karabük",
+            "Karaman",
+            "Kars",
+            "Kastamonu",
+            "Kayseri",
+            "Kilis",
+            "Kırıkkale",
+            "Kırklareli",
+            "Kırşehir",
+            "Kocaeli",
+            "Konya",
+            "Kütahya",
+            "Malatya",
+            "Manisa",
+            "Mardin",
+            "Mersin",
+            "Muğla",
+            "Muş",
+            "Nevşehir",
+            "Niğde",
+            "Ordu",
+            "Osmaniye",
+            "Rize",
+            "Sakarya",
+            "Samsun",
+            "Şanlıurfa",
+            "Siirt",
+            "Sinop",
+            "Sivas",
+            "Şırnak",
+            "Tekirdağ",
+            "Tokat",
+            "Trabzon",
+            "Tunceli",
+            "Uşak",
+            "Van",
+            "Yalova",
+            "Yozgat",
+            "Zonguldak"});
             this.comboBox1.Location = new System.Drawing.Point(77, 277);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(189, 23);
@@ -96,7 +176,9 @@
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(314, 334);
+            this.textBox5.MaxLength = 15;
             this.textBox5.Name = "textBox5";
+            this.textBox5.PasswordChar = '*';
             this.textBox5.Size = new System.Drawing.Size(181, 23);
             this.textBox5.TabIndex = 37;
             // 
@@ -110,9 +192,11 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(77, 229);
+            this.textBox3.MaxLength = 10;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(189, 23);
             this.textBox3.TabIndex = 35;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox2
             // 

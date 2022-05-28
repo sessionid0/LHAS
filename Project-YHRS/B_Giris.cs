@@ -1,7 +1,16 @@
+using System.Data;
+using System.Data.SqlClient;
+
 namespace Project_YHRS
 {
     public partial class YHRS : Form
     {
+        SqlConnection con;
+        SqlDataAdapter da;
+        SqlCommand cmd;
+        SqlDataReader dr;
+        DataSet ds;
+        public static string SqlCon = @"Data Source=DESKTOP-I8QAI56\SQLEXPRESS;Initial Catalog=Project Hospital Veritabaný;Integrated Security=True";
         public YHRS()
         {
             InitializeComponent();
@@ -18,8 +27,38 @@ namespace Project_YHRS
         {
             // if hasta T.C.'si ve þifresi doðruysa alttaki kod çalýþsýn
             S_HastaPanel s_HastaPanel = new S_HastaPanel();
-            s_HastaPanel.Show();
-            this.Hide();
+            string passhash;
+            passhash = VeriTabaný.SHA256Sifrele(textBox1.Text);
+            string sorgu = "select * from HastalarTablosu where H_TCKimlik =@user and H_Sifre =@pass";
+            con = new SqlConnection(SqlCon);
+            cmd = new SqlCommand(sorgu, con);
+            cmd.Parameters.AddWithValue("@user", textBox2.Text);
+            cmd.Parameters.AddWithValue("@pass", passhash);
+            con.Open();
+            dr = cmd.ExecuteReader();
+
+            VeriTabaný.LoginDataKontrol(textBox2.Text, textBox1.Text);
+
+            if (dr.Read() == true)
+            {
+
+
+                s_HastaPanel.Show();
+
+                this.Hide();
+
+                con.Close();
+
+            }
+            else
+            {
+                con.Close();
+                MessageBox.Show("Kullanýcý adý veya þifre hatalýdýr.");
+                textBox1.Clear();
+                textBox2.Clear();
+                textBox2.Focus();
+
+            }
 
             // if doktor butonuna týklandýysa (týklanýnca bir deðiþken true/false olacak ona göre ilerleyecek program)
             // ve sonra giriþ yap dendiyse 
