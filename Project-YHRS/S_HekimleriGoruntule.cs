@@ -19,7 +19,7 @@ namespace Project_YHRS
 
         private void S_HekimleriGoruntule_Load(object sender, EventArgs e)
         {
-            VeriTabanı.GridTumunuDoldur(dataGridView1, "DoktorTablosu");
+            VeriTabanı.GridTumunuDoldur(dataGridView1, "DoktorlarTablosu");
         }
     }
 }

@@ -36,6 +36,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.lbl_DoktorGirisi = new System.Windows.Forms.Label();
             this.lbl_YoneticiGirisi = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.lbl_HastaGirisi = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button3
@@ -144,6 +146,32 @@
             this.lbl_YoneticiGirisi.Text = "Yönetici Girişi";
             this.lbl_YoneticiGirisi.Visible = false;
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Transparent;
+            this.button5.BackgroundImage = global::Project_YHRS.Properties.Resources.Untitled_design__1_;
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button5.Location = new System.Drawing.Point(483, 269);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(42, 37);
+            this.button5.TabIndex = 21;
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // lbl_HastaGirisi
+            // 
+            this.lbl_HastaGirisi.AutoSize = true;
+            this.lbl_HastaGirisi.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_HastaGirisi.Location = new System.Drawing.Point(417, 99);
+            this.lbl_HastaGirisi.Name = "lbl_HastaGirisi";
+            this.lbl_HastaGirisi.Size = new System.Drawing.Size(91, 21);
+            this.lbl_HastaGirisi.TabIndex = 22;
+            this.lbl_HastaGirisi.Text = "Hasta Girişi";
+            // 
             // YHRS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -152,6 +180,8 @@
             this.BackgroundImage = global::Project_YHRS.Properties.Resources.photo1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(646, 362);
+            this.Controls.Add(this.lbl_HastaGirisi);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.lbl_YoneticiGirisi);
             this.Controls.Add(this.lbl_DoktorGirisi);
             this.Controls.Add(this.button3);
@@ -183,5 +213,7 @@
         private Button button1;
         private Label lbl_DoktorGirisi;
         private Label lbl_YoneticiGirisi;
+        private Button button5;
+        private Label lbl_HastaGirisi;
     }
 }

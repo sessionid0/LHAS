@@ -13,6 +13,12 @@ namespace Project_YHRS
     internal class VeriTabanı
 
     {
+
+        public static int login = 1;
+        // login = 1 -> hasta
+        // login = 2 -> doktor
+        // login = 3 -> yönetici
+
         public static string h_name = "";
         public static string h_surname = "";
         public static string h_gender = "";
@@ -23,14 +29,33 @@ namespace Project_YHRS
         public static string userpass = "";
         public static string usertc = "";
 
+        public static string d_name = "";
+        public static string d_surname = "";
+        public static string d_gender = "";
+        public static string d_dogumyeri = "";
+        public static string d_dogumtarihi = "";
+        public static string d_eposta = "";
+        public static string d_tel = "";
+        public static string d_userpass = "";
+        public static string d_usertc = "";
 
+        public static string y_name = "";
+        public static string y_surname = "";
+        public static string y_gender = "";
+        public static string y_dogumyeri = "";
+        public static string y_dogumtarihi = "";
+        public static string y_eposta = "";
+        public static string y_tel = "";
+        public static string y_userpass = "";
+        public static string y_usertc = "";
+        
 
         static SqlConnection con;
         static SqlDataAdapter da;
         static SqlCommand cmd;
         static SqlDataReader dr;
         static DataSet ds;
-        public static string SqlCon = @"Data Source=THEHELLBOY\SQLEXPRESS;Initial Catalog=Project Hospital Veritabanı;Integrated Security=True";
+        public static string SqlCon = @"Data Source=DESKTOP-I8QAI56\SQLEXPRESS;Initial Catalog=Project Hospital Veritabanı;Integrated Security=True";
         public static int a = 0;
 
         public static string SHA256Sifrele(string sifremetin)
@@ -96,6 +121,79 @@ namespace Project_YHRS
 
         }
 
+        public static void LoginDataKontrolDoktor(string kullaniciadi, string sifre)
+        {
+            string passhash;
+            passhash = VeriTabanı.SHA256Sifrele(sifre);
+            string sorgu = "select * from DoktorlarTablosu where D_TCKimlik =@tc and D_Sifre =@pass"; con = new SqlConnection(SqlCon);
+            cmd = new SqlCommand(sorgu, con);
+            cmd.Parameters.AddWithValue("@tc", kullaniciadi);
+            cmd.Parameters.AddWithValue("@pass", passhash);
+            con.Open();
+            dr = cmd.ExecuteReader();
+            //cmd.ExecuteNonQuery();
+            if (dr.Read() == true)
+            {
+
+                d_userpass = passhash;
+                d_usertc = kullaniciadi;
+                d_name = (dr["D_Ad"].ToString());
+                d_surname = (dr["D_Soyad"].ToString());
+                d_gender = (dr["D_Cinsiyet"].ToString());
+                d_dogumyeri = (dr["D_DogumYeri"].ToString());
+                d_dogumtarihi = (dr["D_DogumTarihi"].ToString());
+                d_eposta = (dr["D_Eposta"].ToString());
+                d_tel = (dr["D_Telefon"].ToString());
+
+                con.Close();
+
+
+            }
+            else
+            {
+
+                con.Close();
+
+            }
+
+        }
+
+        public static void LoginDataKontrolYönetici(string kullaniciadi, string sifre)
+        {
+            string passhash;
+            passhash = VeriTabanı.SHA256Sifrele(sifre);
+            string sorgu = "select * from YöneticilerTablosu where Y_TCKimlik =@tc and Y_Sifre =@pass"; con = new SqlConnection(SqlCon);
+            cmd = new SqlCommand(sorgu, con);
+            cmd.Parameters.AddWithValue("@tc", kullaniciadi);
+            cmd.Parameters.AddWithValue("@pass", passhash);
+            con.Open();
+            dr = cmd.ExecuteReader();
+            //cmd.ExecuteNonQuery();
+            if (dr.Read() == true)
+            {
+
+                y_userpass = passhash;
+                y_usertc = kullaniciadi;
+                y_name = (dr["Y_Ad"].ToString());
+                y_surname = (dr["Y_Soyad"].ToString());
+                y_gender = (dr["Y_Cinsiyet"].ToString());
+                y_dogumyeri = (dr["Y_DogumYeri"].ToString());
+                y_dogumtarihi = (dr["Y_DogumTarihi"].ToString());
+                y_eposta = (dr["Y_Eposta"].ToString());
+                y_tel = (dr["Y_Telefon"].ToString());
+
+                con.Close();
+
+
+            }
+            else
+            {
+
+                con.Close();
+
+            }
+
+        }
 
         public static bool LoginKontrol(string kullaniciadih, string sifreh)
         {
