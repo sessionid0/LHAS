@@ -19,7 +19,7 @@ namespace Project_YHRS
 
         private void S_HastaPanel_Load(object sender, EventArgs e)
         {
-            
+            VeriTabanı.LoginDataKontrol(VeriTabanı.usertc, VeriTabanı.userpass);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -31,6 +31,7 @@ namespace Project_YHRS
         private void button4_Click(object sender, EventArgs e)
         {
             S_Profilim s_Profilim = new S_Profilim();
+            VeriTabanı.LoginDataKontrol(VeriTabanı.usertc, VeriTabanı.userpass);
             s_Profilim.Show();
             
         }

@@ -130,6 +130,7 @@
             this.MaximizeBox = false;
             this.Name = "S_Ayarlar";
             this.Text = "Parola ve Bilgilendirme";
+            this.Load += new System.EventHandler(this.S_Ayarlar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

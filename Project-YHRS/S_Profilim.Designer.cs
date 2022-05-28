@@ -142,6 +142,7 @@
             this.MaximizeBox = false;
             this.Name = "S_Profilim";
             this.Text = "YHRS";
+            this.Load += new System.EventHandler(this.S_Profilim_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

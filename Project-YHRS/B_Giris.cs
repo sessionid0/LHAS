@@ -10,7 +10,7 @@ namespace Project_YHRS
         SqlCommand cmd;
         SqlDataReader dr;
         DataSet ds;
-        public static string SqlCon = @"Data Source=DESKTOP-I8QAI56\SQLEXPRESS;Initial Catalog=Project Hospital Veritabaný;Integrated Security=True";
+        public static string SqlCon = @"Data Source=THEHELLBOY\SQLEXPRESS;Initial Catalog=Project Hospital Veritabaný;Integrated Security=True";
         public YHRS()
         {
             InitializeComponent();
@@ -39,10 +39,20 @@ namespace Project_YHRS
 
             VeriTabaný.LoginDataKontrol(textBox2.Text, textBox1.Text);
 
+
+
             if (dr.Read() == true)
             {
 
-
+                VeriTabaný.userpass = passhash;
+                VeriTabaný.usertc = dr["H_TCKimlik"].ToString();
+                VeriTabaný.h_name = (dr["H_Ad"].ToString());
+                VeriTabaný.h_surname = (dr["H_Soyad"].ToString());
+                VeriTabaný.h_gender = (dr["H_Cinsiyet"].ToString());
+                VeriTabaný.h_dogumyeri = (dr["H_DogumYeri"].ToString());
+                VeriTabaný.h_dogumtarihi = (dr["H_DogumTarihi"].ToString());
+                VeriTabaný.h_eposta = (dr["H_Eposta"].ToString());
+                VeriTabaný.h_tel = (dr["H_Telefon"].ToString());
                 s_HastaPanel.Show();
 
                 this.Hide();
@@ -59,6 +69,7 @@ namespace Project_YHRS
                 textBox2.Focus();
 
             }
+
 
             // if doktor butonuna týklandýysa (týklanýnca bir deðiþken true/false olacak ona göre ilerleyecek program)
             // ve sonra giriþ yap dendiyse 

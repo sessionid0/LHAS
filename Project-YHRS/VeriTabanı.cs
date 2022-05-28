@@ -30,14 +30,13 @@ namespace Project_YHRS
         static SqlCommand cmd;
         static SqlDataReader dr;
         static DataSet ds;
-        public static string SqlCon = @"Data Source=DESKTOP-I8QAI56\SQLEXPRESS;Initial Catalog=Project Hospital Veritabanı;Integrated Security=True";
+        public static string SqlCon = @"Data Source=THEHELLBOY\SQLEXPRESS;Initial Catalog=Project Hospital Veritabanı;Integrated Security=True";
         public static int a = 0;
 
         public static string SHA256Sifrele(string sifremetin)
         {
             SHA256 sHA256Hash = SHA256.Create();
-            //byte[] dizi = sHA256Hash.ComputeHash(Encoding.UTF8.GetBytes(sifremetin));
-            byte[] dizi = Encoding.UTF8.GetBytes(sifremetin);
+            byte[] dizi = sHA256Hash.ComputeHash(Encoding.UTF8.GetBytes(sifremetin));
             dizi = sHA256Hash.ComputeHash(dizi);
 
             StringBuilder stringBuilder = new StringBuilder();
@@ -70,18 +69,19 @@ namespace Project_YHRS
             cmd.Parameters.AddWithValue("@pass", passhash);
             con.Open();
             dr = cmd.ExecuteReader();
+            //cmd.ExecuteNonQuery();
             if (dr.Read() == true)
             {
                 
                 userpass = passhash;
                 usertc = kullaniciadi;
-                h_name= (dr["H_Ad"].ToString());
-                h_surname = (dr["H_Soyad"].ToString());
-                h_gender = (dr["H_Cinsiyet"].ToString());
-                h_dogumyeri = (dr["H_DogumYeri"].ToString());
-                h_dogumtarihi = (dr["H_DogumTarihi"].ToString());
-                h_eposta = (dr["H_Eposta"].ToString());
-                h_tel = (dr["H_Telefon"].ToString());
+                h_name= dr["H_Ad"].ToString();
+                h_surname = dr["H_Soyad"].ToString();
+                h_gender = dr["H_Cinsiyet"].ToString();
+                h_dogumyeri = dr["H_DogumYeri"].ToString();
+                h_dogumtarihi = dr["H_DogumTarihi"].ToString();
+                h_eposta = dr["H_Eposta"].ToString();
+                h_tel = dr["H_Telefon"].ToString();
 
                 con.Close();
 
@@ -97,7 +97,35 @@ namespace Project_YHRS
         }
 
 
+        public static bool LoginKontrol(string kullaniciadih, string sifreh)
+        {
+            string passhash;
+            passhash = VeriTabanı.SHA256Sifrele(sifreh);
+            string sorgu = "select * from HastalarTablosu where H_TCKimlik =@tc and H_Sifre =@pass";
+            con = new SqlConnection(SqlCon);
+            cmd = new SqlCommand(sorgu, con);
+            cmd.Parameters.AddWithValue("@tc", kullaniciadih);
+            cmd.Parameters.AddWithValue("@pass", passhash);
+            con.Open();
+            dr = cmd.ExecuteReader();
+            cmd.ExecuteNonQuery();
+            if (dr.Read() == true)
+            {
 
+                con.Close();
+                return true;
+
+
+            }
+            else
+            {
+
+                con.Close();
+                return false;
+
+            }
+
+        }
         public static DataGridView GridTumunuDoldur(DataGridView gridim, string selectSqlSorgu)
         {
             con = new SqlConnection(SqlCon);
