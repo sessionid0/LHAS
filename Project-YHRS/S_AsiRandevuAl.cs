@@ -23,6 +23,7 @@ namespace Project_YHRS
             S_AsiRandevuBilesen s_AsiRandevuBilesen = new S_AsiRandevuBilesen();
             VeriTabanı.a = 1;
             s_AsiRandevuBilesen.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -30,6 +31,8 @@ namespace Project_YHRS
             S_AsiRandevuBilesen s_AsiRandevuBilesen = new S_AsiRandevuBilesen();
             VeriTabanı.a = 2;
             s_AsiRandevuBilesen.Show();
+            this.Hide();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -37,6 +40,15 @@ namespace Project_YHRS
             S_AsiRandevuBilesen s_AsiRandevuBilesen = new S_AsiRandevuBilesen();
             VeriTabanı.a = 3;
             s_AsiRandevuBilesen.Show();
+            this.Hide();
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            S_HastaPanel s_HastaPanel = new S_HastaPanel();
+            s_HastaPanel.Show();
+            this.Hide();
         }
     }
 }

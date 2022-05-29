@@ -59,5 +59,10 @@ namespace Project_YHRS
             B_HastaGrafik b_HastaGrafik = new B_HastaGrafik();
             b_HastaGrafik.Show();
         }
+
+        private void B_YoneticiPanel_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

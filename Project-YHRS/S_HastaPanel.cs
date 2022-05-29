@@ -19,6 +19,9 @@ namespace Project_YHRS
 
         private void S_HastaPanel_Load(object sender, EventArgs e)
         {
+            
+            VeriTabanı.GridTumunuDoldur(dataGridView1, "Select R_Aciklama 'Randevu Türü',R_BGerceklesme 'Durumu',POL_Ad 'Poliklinik Adı', RD_Ad 'Doktor Adı', R_Tarih 'Tarihi', R_Saat 'Saati' from RandevularTablosu");
+            VeriTabanı.GridTumunuDoldur(dataGridView2, "Select POL_Ad 'Poliklinik Adı', RD_Ad 'Doktor Adı', R_Tarih 'Tarihi', H_ReceteKod 'Reçete Kodu' from RandevularTablosu");
             VeriTabanı.LoginDataKontrol(VeriTabanı.usertc, VeriTabanı.userpass);
         }
 
@@ -26,6 +29,7 @@ namespace Project_YHRS
         {
             S_AsiRandevuAl s_AsiRandevuAl = new S_AsiRandevuAl();
             s_AsiRandevuAl.Show();
+            this.Hide();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -46,12 +50,14 @@ namespace Project_YHRS
         {
             S_HastaneRandevu s_HastaneRandevu = new S_HastaneRandevu();
             s_HastaneRandevu.Show();
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             S_HekimleriGoruntule s_HekimleriGoruntule = new S_HekimleriGoruntule();
             s_HekimleriGoruntule.Show();
+            this.Hide();
         }
 
         private void button6_Click(object sender, EventArgs e)

@@ -373,6 +373,16 @@ namespace Project_YHRS.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap up_bttn {
+            get {
+                object obj = ResourceManager.GetObject("up_bttn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap Yerel_Hastane_Randevu_Sistemi {
             get {
                 object obj = ResourceManager.GetObject("Yerel Hastane Randevu Sistemi", resourceCulture);

@@ -50,16 +50,22 @@ namespace Project_YHRS
         public static string y_tel = "";
         public static string y_userpass = "";
         public static string y_usertc = "";
-        
+        public static bool tercih =true;
+        public static int a = 0;
+        public static string butonlar = "";
+        public static int caution = 0;
+        public static string recetehastatutucuad = "";
+        public static string recetehastatutucusoyad = "";
+        public static string receterandomcode = "";
+
 
         static SqlConnection con;
         static SqlDataAdapter da;
         static SqlCommand cmd;
         static SqlDataReader dr;
         static DataSet ds;
-        public static string SqlCon = @"Data Source=DESKTOP-I8QAI56\SQLEXPRESS;Initial Catalog=Project Hospital Veritabanı;Integrated Security=True";
-        public static int a = 0;
-
+        public static string SqlCon = @"Data Source=THEHELLBOY\SQLEXPRESS;Initial Catalog=Project Hospital Veritabanı;Integrated Security=True";
+        
         public static string SHA256Sifrele(string sifremetin)
         {
             SHA256 sHA256Hash = SHA256.Create();
@@ -74,6 +80,13 @@ namespace Project_YHRS
 
 
             return stringBuilder.ToString();
+        }
+        private static Random random = new Random();
+        public static string RandomString(int length)
+        {
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+            return new string(Enumerable.Repeat(chars, length)
+              .Select(s => s[random.Next(s.Length)]).ToArray());
         }
 
         public static void KomutYollaParametreli(string sql, SqlCommand cmd)

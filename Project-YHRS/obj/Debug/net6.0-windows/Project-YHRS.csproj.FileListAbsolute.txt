@@ -48,7 +48,6 @@ C:\Users\suley\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-wind
 C:\Users\suley\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-windows\Project_YHRS.S_HekimleriGoruntule.resources
 C:\Users\suley\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-windows\Project_YHRS.S_DoktorPanel.resources
 C:\Users\suley\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-windows\Project_YHRS.S_ReceteOlustur.resources
-C:\Users\suley\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-windows\Project_YHRS.B_PoliklinikEkleSil.resources
 C:\Users\suley\Desktop\proje-project-hospital\Project-YHRS\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
 C:\Users\suley\Desktop\proje-project-hospital\Project-YHRS\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
 C:\Users\suley\Desktop\proje-project-hospital\Project-YHRS\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
@@ -95,3 +94,4 @@ C:\Users\yucel\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-wind
 C:\Users\yucel\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-windows\Project-YHRS.genruntimeconfig.cache
 C:\Users\yucel\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-windows\ref\Project-YHRS.dll
 C:\Users\yucel\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-windows\Project_YHRS.B_Sil.resources
+C:\Users\suley\Desktop\proje-project-hospital\Project-YHRS\obj\Debug\net6.0-windows\Project_YHRS.B_Sil.resources

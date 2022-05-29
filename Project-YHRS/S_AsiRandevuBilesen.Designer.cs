@@ -32,6 +32,8 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -97,6 +99,33 @@
             this.comboBox1.Size = new System.Drawing.Size(229, 28);
             this.comboBox1.TabIndex = 8;
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.BackgroundImage = global::Project_YHRS.Properties.Resources.up_bttn;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(632, 2);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(48, 52);
+            this.button3.TabIndex = 19;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Transparent;
+            this.button6.BackgroundImage = global::Project_YHRS.Properties.Resources.CikisYap;
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Location = new System.Drawing.Point(686, 2);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(48, 52);
+            this.button6.TabIndex = 18;
+            this.button6.UseVisualStyleBackColor = false;
+            // 
             // S_AsiRandevuBilesen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
@@ -105,6 +134,8 @@
             this.BackgroundImage = global::Project_YHRS.Properties.Resources.asirandevubile;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(738, 599);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
@@ -126,5 +157,7 @@
         private DateTimePicker dateTimePicker1;
         private Label label1;
         private ComboBox comboBox1;
+        private Button button3;
+        private Button button6;
     }
 }

@@ -7,11 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace Project_YHRS
 {
     public partial class S_HastaneRandevu : Form
     {
+        static SqlConnection con;
+        static SqlDataAdapter da;
+        static SqlCommand cmd;
+        static SqlDataReader dr;
+        static DataSet ds;
+        public static string SqlCon = @"Data Source=THEHELLBOY\SQLEXPRESS;Initial Catalog=Project Hospital Veritabanı;Integrated Security=True";
+
         public S_HastaneRandevu()
         {
             InitializeComponent();
@@ -31,7 +40,7 @@ namespace Project_YHRS
 
         private void a0_CheckStateChanged(object sender, EventArgs e)
         {
-           
+
 
         }
 
@@ -58,7 +67,7 @@ namespace Project_YHRS
                 a15.Enabled = false;
 
             }
-            
+
             else
             {
                 a0.BackColor = Color.White;
@@ -810,10 +819,168 @@ namespace Project_YHRS
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Randevu başarıyla kaydedildi.", "YHRS",
-            MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //Buttons başlangıç
+            if (a0.Enabled == true && a1.Enabled == false)
+            {
+                VeriTabanı.butonlar = a0.Text;
+                VeriTabanı.caution = 0;
+            }
+            else if (a1.Enabled == true && a0.Enabled == false)
+            {
+                VeriTabanı.caution = 0;
+                VeriTabanı.butonlar = a1.Text;
+            }
+            else if (a2.Enabled == true && a0.Enabled == false)
+            {
+                VeriTabanı.caution = 0;
+                VeriTabanı.butonlar = a2.Text;
+            }
+            else if (a3.Enabled == true && a0.Enabled == false)
+            {
+                VeriTabanı.caution = 0;
+                VeriTabanı.butonlar = a3.Text;
+            }
+            else if (a4.Enabled == true && a0.Enabled == false)
+            {
+                VeriTabanı.caution = 0;
+                VeriTabanı.butonlar = a4.Text;
+            }
+            else if (a5.Enabled == true && a0.Enabled == false)
+            {
+                VeriTabanı.caution = 0;
+                VeriTabanı.butonlar = a5.Text;
+            }
+            else if (a6.Enabled == true && a0.Enabled == false)
+            {
+                VeriTabanı.caution = 0;
+                VeriTabanı.butonlar = a6.Text;
+            }
+            else if (a7.Enabled == true && a0.Enabled == false)
+            {
+                VeriTabanı.caution = 0;
+                VeriTabanı.butonlar = a7.Text;
+            }
+            else if (a8.Enabled == true && a0.Enabled == false)
+            {
+                VeriTabanı.caution = 0;
+                VeriTabanı.butonlar = a8.Text;
+            }
+            else if (a9.Enabled == true && a0.Enabled == false)
+            {
+                VeriTabanı.caution = 0;
+                VeriTabanı.butonlar = a9.Text;
+            }
+            else if (a10.Enabled == true && a0.Enabled == false)
+            {
+                VeriTabanı.caution = 0;
+                VeriTabanı.butonlar = a10.Text;
+            }
+            else if (a11.Enabled == true && a0.Enabled == false)
+            {
+                VeriTabanı.caution = 0;
+                VeriTabanı.butonlar = a11.Text;
+            }
+            else if (a12.Enabled == true && a0.Enabled == false)
+            {
+                VeriTabanı.caution = 0;
+                VeriTabanı.butonlar = a12.Text;
+            }
+            else if (a13.Enabled == true && a0.Enabled == false)
+            {
+                VeriTabanı.caution = 0;
+                VeriTabanı.butonlar = a13.Text;
+            }
+            else if (a14.Enabled == true && a0.Enabled == false)
+            {
+                VeriTabanı.caution = 0;
+                VeriTabanı.butonlar = a14.Text;
+            }
+            else if (a15.Enabled == true && a0.Enabled == false)
+            {
+                VeriTabanı.caution = 0;
+                VeriTabanı.butonlar = a15.Text;
+            }
+            else
+            {
+                VeriTabanı.caution = 1;
+
+            }
+
+            //Buttons bitiş
+
+            if (VeriTabanı.caution == 1)
+            {
+                MessageBox.Show("Lütfen bir saat seçimi yapınız.");
+            }
+            else
+            {
+                string hastanerandevu = "insert into RandevularTablosu (RD_Ad,POL_Ad, R_Tarih,R_Saat,R_Ad,R_Soyad,R_Aciklama, R_Gerceklesme) values (@dokad, @polad, @tarih, @saat, @ad, @soyad, @aciklama, @gerceklesme )";
+                cmd = new SqlCommand(hastanerandevu, con);
+
+                cmd.Parameters.AddWithValue("@dokad", comboBox1.Text);
+                cmd.Parameters.AddWithValue("@polad", comboBox2.Text);
+                cmd.Parameters.AddWithValue("@gerceklesme", false);
+                cmd.Parameters.AddWithValue("@tarih", dateTimePicker1.Value);
+                cmd.Parameters.AddWithValue("@saat", VeriTabanı.butonlar);
+                cmd.Parameters.AddWithValue("@ad", VeriTabanı.h_name);
+                cmd.Parameters.AddWithValue("@soyad", VeriTabanı.h_surname);
+                //cmd.Parameters.AddWithValue("@id", "404");
+                cmd.Parameters.AddWithValue("@aciklama", "Poliklinik Randevusu");
+
+                VeriTabanı.KomutYollaParametreli(hastanerandevu, cmd);
+
+                MessageBox.Show("Hastane randevunuz başarıyla alınmıştır.", "YHRS",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Hide();
+
+            }
+
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void S_HastaneRandevu_Load(object sender, EventArgs e)
+        {
+            string Sql = "select D_Ad, D_Soyad from DoktorlarTablosu";
+            SqlConnection conn = new SqlConnection(SqlCon);
+            conn.Open();
+            SqlCommand cmd = new SqlCommand(Sql, conn);
+            SqlDataReader DR = cmd.ExecuteReader();
+
+            while (DR.Read())
+            {
+                string dizi = DR[0] + " " + DR[1];
+                comboBox1.Items.Add(dizi);
+
+            }
+            conn.Close();
+
+            string Sqlh = "select POL_Ad from PolikliniklerTablosu";
+            SqlConnection cohn = new SqlConnection(SqlCon);
+            cohn.Open();
+            SqlCommand cma = new SqlCommand(Sqlh, cohn);
+            SqlDataReader DRf = cma.ExecuteReader();
+
+            while (DRf.Read())
+            {
+                string dizim = "" + DRf[0] + "";
+                comboBox1.Items.Add(dizim);
+
+            }
+            cohn.Close();
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            S_HastaPanel s_HastaPanel = new S_HastaPanel();
+            s_HastaPanel.Show();
             this.Hide();
         }
     }
-    
+
 }

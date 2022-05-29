@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(S_HastaneRandevu));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.button2 = new System.Windows.Forms.Button();
@@ -54,6 +54,8 @@
             this.a5 = new System.Windows.Forms.Button();
             this.a6 = new System.Windows.Forms.Button();
             this.a4 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -65,44 +67,32 @@
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.dateTimePicker1);
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.comboBox2);
-            this.panel1.Controls.Add(this.dateTimePicker1);
-            this.panel1.Location = new System.Drawing.Point(548, 82);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Location = new System.Drawing.Point(542, 70);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(483, 503);
+            this.panel1.Size = new System.Drawing.Size(499, 519);
             this.panel1.TabIndex = 5;
             // 
-            // button1
+            // dateTimePicker1
             // 
-            this.button1.BackgroundImage = global::Project_YHRS.Properties.Resources.Giriş_Yap;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(48, 360);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(160, 36);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "İleri";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.dateTimePicker1.Location = new System.Drawing.Point(48, 81);
+            this.dateTimePicker1.MinDate = new System.DateTime(2022, 5, 28, 0, 0, 0, 0);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(386, 27);
+            this.dateTimePicker1.TabIndex = 51;
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Medet Mete Cengiz",
-            "Mükerrem Sarol",
-            "Naşit Erez",
-            "Oğuz Aygün",
-            "Hatice Açıkalın",
-            "Kemal Bayazıt"});
-            this.comboBox1.Location = new System.Drawing.Point(48, 297);
+            this.comboBox1.Location = new System.Drawing.Point(48, 307);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(386, 28);
-            this.comboBox1.TabIndex = 4;
+            this.comboBox1.TabIndex = 50;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // comboBox2
             // 
@@ -143,16 +133,25 @@
             "Yoğun Bakım",
             "Covid-19 PCR Test Merkezi"});
             this.comboBox2.Location = new System.Drawing.Point(48, 189);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(386, 28);
-            this.comboBox2.TabIndex = 1;
+            this.comboBox2.TabIndex = 48;
             // 
-            // dateTimePicker1
+            // button1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(48, 79);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(386, 27);
-            this.dateTimePicker1.TabIndex = 3;
+            this.button1.BackgroundImage = global::Project_YHRS.Properties.Resources.Giriş_Yap;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.Location = new System.Drawing.Point(48, 360);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(160, 36);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "İleri";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel2
             // 
@@ -163,9 +162,9 @@
             this.panel2.Controls.Add(this.richTextBox1);
             this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.groupBox1);
-            this.panel2.Location = new System.Drawing.Point(548, 82);
+            this.panel2.Location = new System.Drawing.Point(542, 70);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(480, 500);
+            this.panel2.Size = new System.Drawing.Size(493, 516);
             this.panel2.TabIndex = 7;
             this.panel2.Visible = false;
             // 
@@ -414,6 +413,33 @@
             this.a4.UseVisualStyleBackColor = false;
             this.a4.Click += new System.EventHandler(this.a4_Click);
             // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Transparent;
+            this.button6.BackgroundImage = global::Project_YHRS.Properties.Resources.CikisYap;
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Location = new System.Drawing.Point(980, 12);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(48, 52);
+            this.button6.TabIndex = 16;
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.BackgroundImage = global::Project_YHRS.Properties.Resources.up_bttn;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(926, 12);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(48, 52);
+            this.button3.TabIndex = 17;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // S_HastaneRandevu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
@@ -422,6 +448,8 @@
             this.BackgroundImage = global::Project_YHRS.Properties.Resources.Randevu_Oluşturun;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1040, 640);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
@@ -429,6 +457,7 @@
             this.MaximizeBox = false;
             this.Name = "S_HastaneRandevu";
             this.Text = "YHRS";
+            this.Load += new System.EventHandler(this.S_HastaneRandevu_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
@@ -461,8 +490,10 @@
         private Button a6;
         private Button a4;
         private Button button1;
-        private ComboBox comboBox1;
         private ComboBox comboBox2;
+        private ComboBox comboBox1;
         private DateTimePicker dateTimePicker1;
+        private Button button6;
+        private Button button3;
     }
 }

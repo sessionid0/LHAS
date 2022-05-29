@@ -10,7 +10,7 @@ namespace Project_YHRS
         static SqlCommand cmd;
         static SqlDataReader dr;
         static DataSet ds;
-        public static string SqlCon = @"Data Source=DESKTOP-I8QAI56\SQLEXPRESS;Initial Catalog=Project Hospital Veritabanı;Integrated Security=True";
+        public static string SqlCon = @"Data Source=THEHELLBOY\SQLEXPRESS;Initial Catalog=Project Hospital Veritabanı;Integrated Security=True";
         public static int a = 0;
         public S_Ayarlar()
         {
@@ -19,6 +19,37 @@ namespace Project_YHRS
 
         private void button2_Click(object sender, EventArgs e)
         {
+
+
+            if (radioButton1.Checked == true)
+            {
+                VeriTabanı.tercih = true;
+                string bilgilendirmetercih = "update HastalarTablosu set T_ID=@id where H_TCKimlik=@user";
+                con = new SqlConnection(SqlCon);
+                cmd = new SqlCommand(bilgilendirmetercih, con);
+                cmd.Parameters.AddWithValue("@user", VeriTabanı.usertc);
+                cmd.Parameters.AddWithValue("@id", true);
+                con.Open();
+                cmd.Connection = con;
+                cmd.ExecuteNonQuery();
+                con.Close();
+                VeriTabanı.KomutYollaParametreli(bilgilendirmetercih, cmd);
+            }
+            else
+            {
+                VeriTabanı.tercih = false;
+                string bilgilendirmetercih = "update HastalarTablosu set T_ID=@id where H_TCKimlik=@user";
+                con = new SqlConnection(SqlCon);
+                cmd = new SqlCommand(bilgilendirmetercih, con);
+                cmd.Parameters.AddWithValue("@user", VeriTabanı.usertc);
+                cmd.Parameters.AddWithValue("@id", false);
+                con.Open();
+                cmd.Connection = con;
+                cmd.ExecuteNonQuery();
+                con.Close();
+                VeriTabanı.KomutYollaParametreli(bilgilendirmetercih, cmd);
+            }
+
             MessageBox.Show("Bilgilendirme tercihiniz kaydedildi.", "YHRS",
             MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
@@ -171,7 +202,18 @@ namespace Project_YHRS
 
         private void S_Ayarlar_Load(object sender, EventArgs e)
         {
+            if (VeriTabanı.tercih = true)
+            {
+              radioButton1.Checked = true;
+              radioButton2.Checked = false;
 
+            }
+            else
+            {
+                radioButton1.Checked = false;
+                radioButton2.Checked = true;
+
+            }
         }
     }
 }
