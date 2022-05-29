@@ -50,5 +50,10 @@ namespace Project_YHRS
             s_HastaPanel.Show();
             this.Hide();
         }
+
+        private void S_AsiRandevuAl_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

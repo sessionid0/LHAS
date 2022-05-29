@@ -128,6 +128,7 @@
             this.MaximizeBox = false;
             this.Name = "S_AsiRandevuAl";
             this.Text = "YHRS";
+            this.Load += new System.EventHandler(this.S_AsiRandevuAl_Load);
             this.ResumeLayout(false);
 
         }
