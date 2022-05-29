@@ -19,6 +19,8 @@ namespace Project_YHRS
         // login = 2 -> doktor
         // login = 3 -> yönetici
 
+        public static string doktor = "";
+
         public static string h_name = "";
         public static string h_surname = "";
         public static string h_gender = "";
@@ -55,7 +57,7 @@ namespace Project_YHRS
         static SqlCommand cmd;
         static SqlDataReader dr;
         static DataSet ds;
-        public static string SqlCon = @"Data Source=THEHELLBOY\SQLEXPRESS;Initial Catalog=Project Hospital Veritabanı;Integrated Security=True";
+        public static string SqlCon = @"Data Source=DESKTOP-I8QAI56\SQLEXPRESS;Initial Catalog=Project Hospital Veritabanı;Integrated Security=True";
         public static int a = 0;
 
         public static string SHA256Sifrele(string sifremetin)
@@ -227,7 +229,7 @@ namespace Project_YHRS
         public static DataGridView GridTumunuDoldur(DataGridView gridim, string selectSqlSorgu)
         {
             con = new SqlConnection(SqlCon);
-            da = new SqlDataAdapter("select * from " + selectSqlSorgu, con);
+            da = new SqlDataAdapter(selectSqlSorgu, con);
             ds = new DataSet();
             con.Open();
             da.Fill(ds, selectSqlSorgu);

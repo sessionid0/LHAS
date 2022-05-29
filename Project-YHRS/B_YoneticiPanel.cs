@@ -51,8 +51,7 @@ namespace Project_YHRS
 
         private void button3_Click(object sender, EventArgs e)
         {
-            B_PoliklinikEkleSil b_PoliklinikEkleSil = new B_PoliklinikEkleSil();
-            b_PoliklinikEkleSil.Show();
+           
         }
 
         private void button2_Click(object sender, EventArgs e)
