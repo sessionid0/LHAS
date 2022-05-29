@@ -56,8 +56,8 @@ namespace Project_YHRS
 
         private void button2_Click(object sender, EventArgs e)
         {
-            B_HastaGrafik b_HastaGrafik = new B_HastaGrafik();
-            b_HastaGrafik.Show();
+           // B_HastaGrafik b_HastaGrafik = new B_HastaGrafik();
+           // b_HastaGrafik.Show();
         }
 
         private void B_YoneticiPanel_Load(object sender, EventArgs e)

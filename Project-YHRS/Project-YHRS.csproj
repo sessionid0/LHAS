@@ -10,6 +10,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="B_HastaGrafik.cs" />
+    <Compile Remove="B_HastaGrafik.Designer.cs" />
     <Compile Remove="B_PoliklinikEkleSil.cs" />
     <Compile Remove="B_PoliklinikEkleSil.Designer.cs" />
     <Compile Remove="Sil.cs" />
@@ -17,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Remove="B_HastaGrafik.resx" />
     <EmbeddedResource Remove="B_PoliklinikEkleSil.resx" />
     <EmbeddedResource Remove="Sil.resx" />
   </ItemGroup>

@@ -10,7 +10,7 @@ namespace Project_YHRS
         SqlCommand cmd;
         SqlDataReader dr;
         DataSet ds;
-        public static string SqlCon = @"Data Source=THEHELLBOY\SQLEXPRESS;Initial Catalog=Project Hospital Veritabaný;Integrated Security=True";
+        public static string SqlCon = @"Data Source=DESKTOP-I8QAI56\SQLEXPRESS;Initial Catalog=Project Hospital Veritabaný;Integrated Security=True";
         public YHRS()
         {
             InitializeComponent();

@@ -7,9 +7,6 @@
     <Compile Update="B_Giris.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="B_HastaGrafik.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="B_Kayit.cs">
       <SubType>Form</SubType>
     </Compile>

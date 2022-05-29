@@ -19,7 +19,7 @@ namespace Project_YHRS
         static SqlCommand cmd;
         static SqlDataReader dr;
         static DataSet ds;
-        public static string SqlCon = @"Data Source=THEHELLBOY\SQLEXPRESS;Initial Catalog=Project Hospital Veritabanı;Integrated Security=True";
+        public static string SqlCon = @"Data Source=DESKTOP-I8QAI56\SQLEXPRESS;Initial Catalog=Project Hospital Veritabanı;Integrated Security=True";
 
         public B_Sil()
         {
@@ -33,6 +33,7 @@ namespace Project_YHRS
             conn.Open();
             SqlCommand cmd = new SqlCommand(Sql, conn);
             SqlDataReader DR = cmd.ExecuteReader();
+           
 
             while (DR.Read())
             {
@@ -40,6 +41,33 @@ namespace Project_YHRS
                 comboBox2.Items.Add(dizi);
 
             }
+            conn.Close();
+
+
+            string Sql2 = "select Y_Ad, Y_Soyad from YoneticilerTablosu";
+            SqlConnection conn2 = new SqlConnection(SqlCon);
+            conn2.Open();
+            SqlCommand cmd2 = new SqlCommand(Sql, conn2);
+            SqlDataReader DR2 = cmd2.ExecuteReader();
+
+            while (DR2.Read())
+            {
+                string dizi2 = DR2[0] + " " + DR2[1];
+                comboBox1.Items.Add(dizi2);
+
+            }
+            conn2.Close();
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("İlgili kayıt silindi.");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("İlgili kayıt silindi.");
         }
     }
 }
