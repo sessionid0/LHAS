@@ -150,6 +150,7 @@
             this.MaximizeBox = false;
             this.Name = "S_DoktorPanel";
             this.Text = "Doktor Paneli";
+            this.Load += new System.EventHandler(this.S_DoktorPanel_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

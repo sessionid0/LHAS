@@ -20,6 +20,7 @@ namespace Project_YHRS
 
         private void S_AsiRandevuBilesen_Load(object sender, EventArgs e)
         {
+           
             if(VeriTabanı.a == 1)
             {
                 label1.Text = "Sinovac";

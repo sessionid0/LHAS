@@ -37,5 +37,10 @@ namespace Project_YHRS
               //boş kalacak.
             }
         }
+
+        private void S_DoktorPanel_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

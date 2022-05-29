@@ -42,5 +42,10 @@ namespace Project_YHRS
                 //boş kalacak.
             }
         }
+
+        private void B_HastaGrafik_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

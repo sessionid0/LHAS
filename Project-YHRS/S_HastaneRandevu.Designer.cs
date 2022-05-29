@@ -92,6 +92,13 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Medet Mete Cengiz",
+            "Mükerrem Sarol",
+            "Naşit Erez",
+            "Oğuz Aygün",
+            "Hatice Açıkalın",
+            "Kemal Bayazıt"});
             this.comboBox1.Location = new System.Drawing.Point(48, 297);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(386, 28);
@@ -100,6 +107,41 @@
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Ağız, Yüz ve Çene Cerrahisi",
+            "Anestezi ve Reanimasyon",
+            "Beyin ve Sinir Cerrahisi (Nöroşirürji)",
+            "Dahiliye (İç Hastalıkları)",
+            "Deri ve Zührevi Hastalıkları (Cildiye)",
+            "Diyaliz",
+            "Endokrinoloji",
+            "Enfeksiyon Hastalıkları ve Klinik Mikrobiyoloji",
+            "Estetik Cerrahi",
+            "Fizik Tedavi ve Rehabilitasyon",
+            "Fizyoloji",
+            "Gastroenteroloji",
+            "Genel Cerrahi",
+            "Tıbbi Genetik",
+            "Göğüs Cerrahisi",
+            "Göğüs Hastalıkları",
+            "Göz Hastalıkları",
+            "Hematoloji (Kan Hastalıkları)",
+            "Kadın Hastalıkları ve Doğum (Jinekoloji)",
+            "Kalp ve Damar Cerrahisi",
+            "Kardiyoloji",
+            "Kulak Burun Boğaz (KBB)",
+            "Nefroloji",
+            "Nöroloji",
+            "Odyoloji",
+            "Onkoloji",
+            "Ortopedi",
+            "Patoloji",
+            "Psikiyatri",
+            "Radyoloji",
+            "Üroloji",
+            "Yeni doğan Yoğun Bakım Ünitesi",
+            "Yoğun Bakım",
+            "Covid-19 PCR Test Merkezi"});
             this.comboBox2.Location = new System.Drawing.Point(48, 189);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(386, 28);

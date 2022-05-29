@@ -109,5 +109,10 @@ namespace Project_YHRS
     MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void B_DoktorEkleSil_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

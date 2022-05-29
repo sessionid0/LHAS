@@ -19,7 +19,7 @@ namespace Project_YHRS
         SqlCommand cmd;
         SqlDataReader dr;
         DataSet ds;
-        public static string SqlCon = @"Data Source=DESKTOP-I8QAI56\SQLEXPRESS;Initial Catalog=Project Hospital Veritabanı;Integrated Security=True";
+        public static string SqlCon = @"Data Source=THEHELLBOY\SQLEXPRESS;Initial Catalog=Project Hospital Veritabanı;Integrated Security=True";
        
         public B_Kayit()
         {
@@ -49,6 +49,11 @@ namespace Project_YHRS
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void B_Kayit_Load(object sender, EventArgs e)
         {
 
         }
