@@ -64,8 +64,11 @@ Süleyman Nur Ceylan - 192503002
 | Doktor paneli (GUI)   | 30.04.2022  | Süleyman Nur Ceylan | ✅ | Teknik sorunlar, dosyaların uyumsuzluk sebebiyle çakışması |
 | Veritabanı yönetim sisteminin kurulması | 03.05.2022 | Bilal Yücel | ✅ | Teknik sorunlar, dosyaların uyumsuzluk sebebiyle çakışması ve bayramın gelmesi |
 | Veritabanı tasarımının yapılması | 08.05.2022 | Süleyman Nur Ceylan | ✅ | Teknik sorunlar, dosyaların uyumsuzluk sebebiyle çakışması ve bayramın gelmesi |
-| Anasayfa tasarımı (Back-End) | 05.06.2022  | Bilal Yücel | ⬜️
-| Hasta paneli (Back-End)   | 05.06.2022  | Süleyman Nur Ceylan | ⬜️
-| Yönetici paneli (Back-End)   | 05.06.2022  | Bilal Yücel | ⬜️
-| Doktor paneli (Back-End)   | 05.06.2022  | Süleyman Nur Ceylan | ⬜️
+| Anasayfa tasarımı (Back-End) | 05.06.2022  | Bilal Yücel | ✅
+| Hasta paneli (Back-End)   | 05.06.2022  | Süleyman Nur Ceylan | ✅
+| Yönetici paneli (Back-End)   | 05.06.2022  | Bilal Yücel | ✅
+| Doktor paneli (Back-End)   | 05.06.2022  | Süleyman Nur Ceylan | ✅
+
+
+### Projenin çalışabilmesi için Formlarda tanımlı olan SqlCon değişkeninin MSSQL Sunucu adı ile aynı olması gerekmektedir. Projeye ek olarak uygulama kullanım videosu yüklenmiştir.
 
